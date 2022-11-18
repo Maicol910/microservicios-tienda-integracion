@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -50,7 +51,7 @@ public class InvoiceRest {
 
     // -------------------Create a Invoice-------------------------------------------
     @PostMapping
-    public ResponseEntity<Invoice> createInvoice(@RequestBody Invoice invoice, BindingResult result) {
+    public ResponseEntity<Invoice> createInvoice(@Valid @RequestBody Invoice invoice, BindingResult result) {
         log.info("Creating Invoice : {}", invoice);
         if (result.hasErrors()){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
