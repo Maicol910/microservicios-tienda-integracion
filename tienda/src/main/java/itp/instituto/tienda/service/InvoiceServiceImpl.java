@@ -1,6 +1,5 @@
 package itp.instituto.tienda.service;
 
-
 import itp.instituto.tienda.client.CustomerClient;
 import itp.instituto.tienda.client.ProductClient;
 import itp.instituto.tienda.entity.Invoice;
@@ -48,7 +47,7 @@ public class InvoiceServiceImpl implements InvoiceService {
         }
         invoice.setState("CREATED");
         invoiceDB = invoiceRepository.save(invoice);
-        invoiceDB.getItems().forEach(invoiceItem -> {
+        invoiceDB.getItems().forEach( invoiceItem -> {
             productClient.updateProduct(invoiceItem.getProductId(), invoiceItem.getQuantity() * -1);
         });
 

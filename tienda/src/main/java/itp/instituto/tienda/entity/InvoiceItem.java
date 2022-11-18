@@ -1,10 +1,11 @@
 package itp.instituto.tienda.entity;
 
+
 import itp.instituto.tienda.model.Product;
 import lombok.Data;
 
 import javax.persistence.*;
-
+import javax.validation.constraints.Positive;
 import java.io.Serializable;
 
 @Entity
