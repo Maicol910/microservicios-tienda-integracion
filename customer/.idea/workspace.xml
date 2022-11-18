@@ -5,40 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf27eb42-d544-4a71-b9b5-958ae19c8f4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../tienda/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/itp/instituto/customer/CustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/itp/instituto/customer/CustomerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itp/instituto/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itp/instituto/customer/CustomerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../product/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/build/classes/java/main/itp/instituto/product/ProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/build/classes/java/main/itp/instituto/product/ProductApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../product/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/src/main/java/itp/instituto/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/main/java/itp/instituto/product/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/src/main/java/itp/instituto/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/main/java/itp/instituto/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../registro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../registro/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
@@ -46,14 +29,9 @@
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tienda/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tienda/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tienda/build/classes/java/main/itp/instituto/tienda/TiendaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/build/classes/java/main/itp/instituto/tienda/TiendaApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tienda/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/TiendaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/TiendaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/entity/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/entity/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/entity/InvoiceItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/entity/InvoiceItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/service/InvoiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tienda/src/main/java/itp/instituto/tienda/service/InvoiceServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
