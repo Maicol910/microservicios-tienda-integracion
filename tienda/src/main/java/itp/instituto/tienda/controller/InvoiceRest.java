@@ -23,7 +23,6 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/invoices")
 public class InvoiceRest {
-
     @Autowired
     InvoiceService invoiceService;
 

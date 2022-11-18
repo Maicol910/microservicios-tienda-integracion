@@ -10,8 +10,5 @@ import java.util.List;
 
 @Repository
 public interface ProductRepository  extends JpaRepository<Product, Long> {
-
   public List<Product> findByCategory(Category category);
-   //Select * from tbl_prductos where category_id = $1;
-
 }

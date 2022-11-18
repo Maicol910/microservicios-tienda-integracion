@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -68,13 +69,13 @@ public class CustomerRest {
     // -------------------Create a Customer-------------------------------------------
 
     @PostMapping
-    public ResponseEntity<Customer> createCustomer( @RequestBody Customer customer, BindingResult result) {
+    public ResponseEntity<Customer> createCustomer(@Valid @RequestBody Customer customer, BindingResult result) {
         log.info("Creating Customer : {}", customer);
         if (result.hasErrors()){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, this.formatMessage(result));
         }
 
-       Customer customerDB = customerService.createCustomer (customer);
+        Customer customerDB = customerService.createCustomer (customer);
 
         return  ResponseEntity.status( HttpStatus.CREATED).body(customerDB);
     }

@@ -1,1 +1,6 @@
-rootProject.name = 'customer'
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'customer-service'

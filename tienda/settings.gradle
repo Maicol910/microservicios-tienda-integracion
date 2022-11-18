@@ -1,1 +1,6 @@
-rootProject.name = 'tienda'
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'shopping-service'

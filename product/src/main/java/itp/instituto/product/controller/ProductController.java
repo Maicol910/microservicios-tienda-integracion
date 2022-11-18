@@ -32,7 +32,7 @@ public class ProductController {
     public ResponseEntity<List<Product>> listProduct(@RequestParam(name = "categoryId", required = false) Long categoryId){
         List<Product> products = new ArrayList<>();
         if (null ==  categoryId){
-             products = productService.listAllProduct();
+            products = productService.listAllProduct();
             if (products.isEmpty()){
                 return ResponseEntity.noContent().build();
             }
@@ -84,7 +84,7 @@ public class ProductController {
         }
         return ResponseEntity.ok(productDelete);
     }
-    @GetMapping (value = "/{id}/stock")
+    @GetMapping(value = "/{id}/stock")
     public ResponseEntity<Product> updateStockProduct(@PathVariable  Long id ,@RequestParam(name = "quantity", required = true) Double quantity){
         Product product = productService.updateStock(id, quantity);
         if (product == null){

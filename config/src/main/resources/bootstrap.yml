@@ -6,12 +6,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Maicol910/microservicios-tienda-integracion.git
+          uri: https://github.com/digitallab-academy/ms-course-youtube.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: "master"
-  #seguridad de spring cloud
   security:
     user:
       name: root
