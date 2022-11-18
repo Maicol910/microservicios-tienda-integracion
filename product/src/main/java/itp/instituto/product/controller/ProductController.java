@@ -65,7 +65,7 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(productCreate);
     }
 
-   @PutMapping(value = "/{id}")
+    @PutMapping(value = "/{id}")
     public ResponseEntity<Product> updateProduct(@PathVariable("id") Long id, @RequestBody Product product){
         product.setId(id);
         Product productDB =  productService.updateProduct(product);
