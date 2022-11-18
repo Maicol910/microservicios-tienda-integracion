@@ -8,7 +8,8 @@ import java.util.Date;
 
 @Entity
 @Table(name = "tbl_products")
-@Data @AllArgsConstructor @NoArgsConstructor @Builder
+@Data
+@AllArgsConstructor @NoArgsConstructor @Builder
 public class Product {
 
     @Id

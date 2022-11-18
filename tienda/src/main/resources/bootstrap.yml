@@ -1,6 +1,6 @@
 spring:
   application:
-    name: tienda
+    name: invoices
 
   cloud:
     config:
