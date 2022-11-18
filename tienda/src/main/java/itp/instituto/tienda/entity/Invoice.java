@@ -8,6 +8,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import javax.validation.Valid;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
@@ -34,6 +35,7 @@ public class Invoice {
     @Column(name = "create_at")
     @Temporal(TemporalType.DATE)
     private Date createAt;
+
 
     @Valid
     @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })

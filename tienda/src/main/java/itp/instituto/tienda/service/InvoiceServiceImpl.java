@@ -48,7 +48,7 @@ public class InvoiceServiceImpl implements InvoiceService {
         invoice.setState("CREATED");
         invoiceDB = invoiceRepository.save(invoice);
         invoiceDB.getItems().forEach( invoiceItem -> {
-            productClient.updateStockProduct( invoiceItem.getProductId(), invoiceItem.getQuantity() * -1);
+            productClient.updateStockProduct(invoiceItem.getProductId(), invoiceItem.getQuantity() * -1);
         });
 
         return invoiceDB;
@@ -83,16 +83,16 @@ public class InvoiceServiceImpl implements InvoiceService {
     @Override
     public Invoice getInvoice(Long id) {
 
-        Invoice invoice= invoiceRepository.findById(id).orElse(null);
-        if (null != invoice ){
+        Invoice invoice = invoiceRepository.findById(id).orElse(null);
+        if (null != invoice){
             Customer customer = customerClient.getCustomer(invoice.getCustomerId()).getBody();
             invoice.setCustomer(customer);
-            List<InvoiceItem> listItem=invoice.getItems().stream().map(invoiceItem -> {
+            List<InvoiceItem> itemList = invoice.getItems().stream().map(invoiceItem -> {
                 Product product = productClient.getProduct(invoiceItem.getProductId()).getBody();
                 invoiceItem.setProduct(product);
                 return invoiceItem;
             }).collect(Collectors.toList());
-            invoice.setItems(listItem);
+            invoice.setItems(itemList);
         }
         return invoice;
 
