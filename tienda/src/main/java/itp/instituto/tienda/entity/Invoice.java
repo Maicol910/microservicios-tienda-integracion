@@ -7,7 +7,7 @@ import itp.instituto.tienda.model.Customer;
 import lombok.Data;
 
 import javax.persistence.*;
-
+import javax.validation.Valid;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
@@ -35,6 +35,7 @@ public class Invoice {
     @Temporal(TemporalType.DATE)
     private Date createAt;
 
+    @Valid
     @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "invoice_id")
